@@ -4,7 +4,6 @@ public class FormulaCreator {
     public static void main(String[] args) {
         double a = 10;
         double b = 10;
-        double formula;
-        formula = (9 * a * a - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
+        double formula = (9 * a * a - 5 * b + 2 + a - 7) * ((a + b - 4 * a * b) / 2);
     }
 }
